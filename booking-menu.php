@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>BOKNINGS MENY XDD</title>
+    <title>BOKNINGS MENY</title>
     <link rel="stylesheet" href="css/booking.css">
   </head>
   <body>
