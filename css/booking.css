@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400');
+* {
+  box-sizing: border-box;
+}
+html, body {
+  background: url("../img/greece.jpg") no-repeat center;
+  background-size: cover;
+  height: 100%;
+}
+body {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+form {
+  width: 600px;
+  background: rgba(255, 255, 255, 0.75);
+  padding: 60px 70px;
+  border-radius: 5px;
+
+}
+input {
+  display: block;
+  width: 100%;
+  line-height: 40px;
+  padding: 0 20px;
+  margin: 0 auto 5px;
+}
+.unstyled {
+  display: block;
+  width: 100%;
+  line-height: 40px;
+  padding: 0 20px;
+  margin: 0 auto 5px;
+}
+.login {
+  display: block;
+  margin: 20px auto 5px;
+  padding: 0 20px;
+  border-radius: 3px;
+  border: none;
+  background: #2c3e50;
+  color: #fff;
+  height: 40px;
+}
+select {
+  display: block;
+  width: 100%;
+  line-height: 40px;
+  padding: 0 20px;
+  margin: 0 auto 5px;
+  height: 40px;
+}
+h1 {
+  font-family: Roboto;
+  font-size: 20px;
+  color: #000;
+}
+.unstyled::-webkit-inner-spin-button {
+  display: none;
+  -webkit-appearance: none;
+}
+.bookingbutton {
+  display: block;
+  background: #3498db;
+  color: #ecf0f1;
+  margin-top: 10px;
+  font-size: 30px;
+  padding: 20px;
+  border-radius: 3px;
+
+}
+.bookingbutton a {
+  display: block;
+  color: #ecf0f1;
+  text-decoration: none;
+  font-family: roboto
+}

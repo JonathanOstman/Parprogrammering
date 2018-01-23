@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+* {
+  box-sizing: border-box;
+}
+html {
+  background: #2c3e50;
+}
+html, body {
+  height: 100%;
+}
+body {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  font-family: Roboto;
+}
+.login {
+  width: 420px;
+  background: rgba(255, 255, 255, 0.75);
+  padding: 30px 40px;
+  border-radius: 5px;
+  text-align: center;
+}
+.login input {
+  display: block;
+  width: 100%;
+  line-height: 40px;
+  margin: 10px auto 0;
+  padding: 0 20px;
+}
+.submit {
+  border-radius: 3px;
+  background: #e74c3c;
+  border: none;
+  cursor: pointer;
+  font-size: 15px;
+  transition: background-color .25s ease;
+}
+.submit:hover {
+  background-color: #c0392b;
+}
+.errorMessage {
+  margin-top: 20px;
+  background: #e74c3c;
+  padding: 0;
+  font-size: 18px;
+  border-radius: 3px;
+}
+.welcome {
+  font-size: 70px;
+  color: #ecf0f1;
+  text-decoration: none;
+  margin: 20px;
+  background: #e74c3c;
+  border-radius: 3px;
+  padding: 20px;
+}

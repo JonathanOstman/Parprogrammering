@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+* {
+  box-sizing: border-box;
+}
+html, body {
+  background: url("../img/img2.jpg") no-repeat center;
+  background-size: cover;
+  height: 100%;
+}
+body {
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+table {
+  border-spacing: 0;
+  margin: 0 auto;
+  overflow: hidden;
+  border-radius: 10px;
+  border: none;
+}
+th {
+  color: #ecf0f1;
+  background: #d35400;
+  padding: 13px;
+  font-size: 40px;
+  font-family: Roboto;
+  text-align: center;
+}
+td {
+  background: #ecf0f1;
+  padding: 7px 13px 7px 13px;
+  overflow: hidden;
+  font-family: Roboto;
+  font-size: 35px;
+  text-align: center;
+  height: 100px;
+}
+.bookingbutton {
+  display: block;
+  background: #ffd32a;
+  color: #ecf0f1;
+  margin-top: 10px;
+  font-size: 30px;
+  padding: 20px;
+  border-radius: 3px;
+
+}
+.bookingbutton a {
+  display: block;
+  color: #ecf0f1;
+  text-decoration: none;
+  font-family: roboto
+}
